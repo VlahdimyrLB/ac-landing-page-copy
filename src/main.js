@@ -23,12 +23,15 @@ const carouselItems = [
 
 const Main = () => {
   return (
-    <section className="h-screen bg-gradient-to-b from-[#FED607] via-white to-white">
+    <section className="bg-gradient-to-b from-[#FED607] via-white to-white">
       <div className="xl:px-24">
         <div className="xl:mx-56">
           <Carousel autoplay={true}>
             {carouselItems.map((item, index) => (
-              <div key={index} className="relative px-12 md:px-28 lg:px-36px xl:px-56px mx-auto" >
+              <div
+                key={index}
+                className="relative px-12 md:px-28 lg:px-36px xl:px-56px mx-auto"
+              >
                 <div className="flex justify-end ">
                   <img
                     src={item.image}

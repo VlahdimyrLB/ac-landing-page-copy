@@ -10,8 +10,9 @@ import Newsfeed from "./newsfeed";
 const Index = () => {
   return (
     <div className="relative">
-      {/* <Header />
-      <Navbar /> */}
+      <Header />
+      <Navbar />
+      <Main />
       <Newsfeed />
       {/* <CTA />
       <Footer /> */}
