@@ -24,11 +24,11 @@ const carouselItems = [
 const Main = () => {
   return (
     <section className="h-screen bg-gradient-to-b from-[#FED607] via-white to-white">
-      <div className="xl:px-16">
-        <div className="xl:mx-40">
+      <div className="xl:px-24">
+        <div className="xl:mx-56">
           <Carousel autoplay={true}>
             {carouselItems.map((item, index) => (
-              <div key={index} className="relative px-12  md:px-28">
+              <div key={index} className="relative px-12 md:px-28 lg:px-36px xl:px-56px mx-auto" >
                 <div className="flex justify-end ">
                   <img
                     src={item.image}
@@ -62,13 +62,13 @@ const Main = () => {
         ></hr>
 
         <div className="flex flex-col md:flex-row pl-4 pr-4 lg:pl-10 lg:pr-10 mb-5">
-          <div className="flex-1 mb-5">
-            <h4 className="text-[30px] font-[Poppins] leading-tight font-medium tracking-[-2px] text-[#212121] md:text-[42px]">
+          <div className="flex-1 mb-5 ">
+            <h4 className="text-[30px] font-[Poppins] leading-tight font-medium tracking-[-2px] text-[#212121] md:text-[42px] lg:text-[48px] xl:text-[54px] 2xl:text-[54px]">
               Transforming careers, Empowering professionals: Our commitment to
               excellence
             </h4>
           </div>
-          <div className="flex-1 grow mb-5">
+          <div className="flex-1 grow mb-5 2xl:ml-24 2xl:mr-48">
             <p className="text-[16px] font-[Poppins] font-light text-[#222222] md:text-[18px]">
               We continuously evolve as a respected and sought-after brand for
               academic programs that cater to working professionals. Our

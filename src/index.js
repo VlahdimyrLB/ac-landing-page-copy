@@ -5,15 +5,16 @@ import Main from "./main";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import CTA from "./CTA";
+import Newsfeed from "./newsfeed";
 
 const Index = () => {
   return (
     <div className="relative">
-      <Header />
-      <Navbar />
-      <Main />
-      <CTA />
-      <Footer />
+      {/* <Header />
+      <Navbar /> */}
+      <Newsfeed />
+      {/* <CTA />
+      <Footer /> */}
     </div>
   );
 };
