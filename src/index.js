@@ -3,6 +3,8 @@ import "./index.css";
 import Header from "./header";
 import Main from "./main";
 import Navbar from "./navbar";
+import Footer from "./footer";
+import CTA from "./CTA";
 
 const Index = () => {
   return (
@@ -10,6 +12,8 @@ const Index = () => {
       <Header />
       <Navbar />
       <Main />
+      <CTA />
+      <Footer />
     </div>
   );
 };

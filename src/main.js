@@ -47,7 +47,7 @@ const Main = () => {
                         {subtitle}
                       </Typography>
                     ))}
-                    <Button className="mt-5 bg-[#136A39] text-[15px] font-[Roboto] text-white px-5 border-2 border-white hover:bg-transparent hover:text-[#136A39] hover:border-[#136A39]">
+                    <Button className="mt-5 bg-[#136A39] text-[15px] font-[Roboto] text-white px-5 border-2 border-white hover:bg-transparent transition-colors duration-500 hover:text-[#136A39] hover:border-[#136A39]">
                       Enroll Now
                     </Button>
                   </div>
