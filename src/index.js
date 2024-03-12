@@ -14,8 +14,8 @@ const Index = () => {
       <Navbar />
       <Main />
       <Newsfeed />
-      {/* <CTA />
-      <Footer /> */}
+      <CTA />
+      <Footer />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import Linkages from "./linkages";
 
 const Items = [
   {
@@ -85,7 +86,7 @@ const Items = [
 
 const Newsfeed = () => {
   return (
-    <section className="flex flex-col 2xl:flex-row mx-5 ">
+    <section className="flex flex-col 2xl:flex-row mx-5 mb-20">
       <div className="flex flex-1 flex-col ">
         <div>
           <h3 className=" text-[33px] font-[Roboto] font-semibold text-[#136A39] mb-10">
@@ -109,9 +110,7 @@ const Newsfeed = () => {
           })}
         </div>
       </div>
-      <div className="w-[400px] relative">
-        <h2 className="sticky top-24">basta dito yung lnkage</h2>
-      </div>
+      <Linkages />
     </section>
   );
 };
