@@ -1,2 +1,2 @@
-# ac-landing-page-copy
+# react-AC-landing-page-copy
 Replica of Aldersgate College https://aldersgate.edu.ph/ Landing Page using React.js and Tailwind CSS
