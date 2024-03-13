@@ -4,17 +4,17 @@ const backgroundImageStyle = {
   backgroundImage:
     'url("https://aldersgate.edu.ph/wp-content/uploads/2023/05/wallpaper-cp.png")',
   backgroundSize: "cover",
-  backgroundPosition: "bottom",
+  backgroundPosition: "bottom right",
   backgroundRepeat: "no-repeat",
 };
 
 function CTA() {
   return (
-    <section className="flex flex-col md:flex-row min-h-[500px] ">
+    <section className="container bg-slate-500 min-h-[600px] flex flex-col md:flex-row">
       {/* First Div */}
-      <div className="flex flex-col justify-center bg-[#176D3B] py-10 px-10 lg:py-0 lg:px-[99px]">
+      <div className="flex justify-center bg-[#176D3B]">
         <p className="text-white mb-2">ALDERSGATE COLLEGE INC</p>
-        <h3 className="text-[32px] font-anton text-[#FFDE01] tracking-widest leading-tight mb-4 md:text-[72px] lg:text-[86px]">
+        <h3 className="text-4xl font-anton text-[#FFDE01] tracking-widest leading-tight mb-4 md:text-[72px]">
           WHERE GENIUS GROWS AND WISDOM FLOWS
         </h3>
         <a
@@ -26,10 +26,9 @@ function CTA() {
       </div>
 
       {/* Image Div */}
-      <div
-        className="h-[300px] w-auto lg:w-[55%] md:h-auto"
-        style={backgroundImageStyle}
-      ></div>
+      <div className="md:w-[55%]" style={backgroundImageStyle}>
+        adsadsadsadds
+      </div>
     </section>
   );
 }
