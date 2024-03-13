@@ -3,6 +3,9 @@ function Linkages() {
     // <div className="">
     <div className="relative container flex items-start text-[#136A39] mt-10 md:w-1/4 md:p-4 mx-auto">
       <div class="sticky top-20 flex flex-col w-full space-y-0">
+        <div className="flex flex-row justify-start items-center font-semibold">
+          <h1 className="p-5 mt-8 text-bold text-2xl">Linkages</h1>
+        </div>
         <div className="flex flex-row justify-center items-center">
           <img
             className="p-2 flex-none w-20 h-20"
